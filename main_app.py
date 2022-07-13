@@ -1,6 +1,7 @@
 import streamlit as st 
 from PIL import Image
 
+st.set_page_config (layout="wide")
 st.title('はるきのページ')
 st.caption('これは、テストアプリです。')
 
